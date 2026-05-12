@@ -29,5 +29,4 @@ https://github.com/OlivaresStephanie-FS/memory-lane
 
 ## Author
 Stephanie Olivares
-
 WDV463 - Memory Lane Assignment
