@@ -8,6 +8,7 @@ export type Post = {
 	title: string;
 	slug: string;
 	date: string;
+	image?: string;
 	content: string;
 };
 
@@ -24,6 +25,7 @@ export function getAllPosts(): Post[] {
 			title: data.title,
 			slug: data.slug || slug,
 			date: data.date,
+			image: data.image,
 			content,
 		};
 	});

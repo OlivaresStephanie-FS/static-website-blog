@@ -44,7 +44,16 @@ export default async function PostPage({
 				</Link>
 
 				<p className="post-date">{post.date}</p>
+
 				<h2>{post.title}</h2>
+
+				{post.image && (
+					<img
+						src={post.image}
+						alt={post.title}
+						className="post-image"
+					/>
+				)}
 
 				{paragraphs.map((paragraph) => (
 					<p key={paragraph}>{paragraph}</p>
